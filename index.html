@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+	<link rel ="stylesheet" href="mycss.css" type="text/css">
+	<script src="index.mjs" type = "module"></script>
+</head>
+
+<body>
+	<h1>Calculator</h1>
+
+	<form>
+		<div>
+			<label for="firstNumber"></label>
+			<input type="text" id="firstNumber" name="firstN" value ="">
+		
+			<label for="symbol"></label>
+			<select name="symbol" id="symbol">
+				<option value="+">+</option>
+				<option value="-">-</option>
+				<option value="*">*</option>
+				<option value="/">/</option>
+			</select>
+		
+			<label for="secondNumber"></label>
+			<input type="text" id="secondNumber" name="secondN" value ="">
+		
+			<input type="button" id="button" value="=">
+		</div>
+		
+		<div>
+			<p id = "result"></p>
+		</div>
+	</form>
+	
+</body>
+
+</html>
